@@ -1,14 +1,14 @@
 cask "gote" do
-  version "1.4.4"
+  version "1.4.5"
   
   on_intel do
     url "https://github.com/yggdrion/gote/releases/download/v#{version}/gote-macos-amd64.app.zip"
-    sha256 "a53a7415bbd025b34337bbc1768664603b99db0c62b748d583e2e5bb1a21b586"
+    sha256 "233d32d291ee473cb4b10fe5b8742b5c331f5821f8d1d95c755249b989e9388b"
   end
   
   on_arm do
     url "https://github.com/yggdrion/gote/releases/download/v#{version}/gote-macos-arm64.app.zip"
-    sha256 "d27ac37dfc50a4a6a4e04b5e320184d0c59ca0ed1ae31031e61dea95feed7312"
+    sha256 "72571a9fdcd2ee8d3591f38c92dc00beaffcce025a4577175ccae1a5d5f830a9"
   end
   
   name "Gote"
